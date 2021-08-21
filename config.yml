@@ -1,0 +1,11 @@
+TRAIN_DATA: '../Data/Raw/train.csv'
+TEST_DATA: '../Data/Raw/test.csv'
+
+OUTPATH: '../Data/Output'
+
+
+CV_PERCENT: 20
+Y_VAR: 'label'
+IMAGE_SHAPE: [28,28]
+
+EPOCHS: 10
